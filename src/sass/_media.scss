@@ -1,0 +1,109 @@
+@media (max-width: 320px) {
+
+    .container {
+        max-width: 320px;
+        padding: 10px;
+    }
+
+    .header {
+        margin-top: 5px;
+
+        &__logo {
+            display: none;
+        }
+
+        &__official {
+            font-size: 12px;
+            font-weight: 300;
+            text-align: left;
+
+            span {
+                font-size: 12px;
+            }
+        }
+
+        &__phone {
+            display: none;
+        }
+    }
+
+    .promo {
+        padding: 0;
+
+        &__wrapper {
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        &__header {
+            font-size: 22px;
+            margin: 0 auto;
+        }
+
+        &__subheader {
+            font-size: 18px;
+            margin-top: 35px;
+        }
+
+        &__icons {
+            margin-top: 25px;
+            width: 300px;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            img {
+                margin-top: 20px;
+            }
+        }
+
+        &__link {
+            font-size: 12px;
+        }
+
+        .button {
+            &_main {
+                width: 294px;
+                margin: 20px auto;
+            }
+        }
+    }
+
+    .advantages {
+        padding: 30px 0 20px 0;
+        max-height: 308px;
+
+        &__wrapper {
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 0;
+        }
+
+        &__item {
+            margin-top: 25px;
+        }
+
+        &__subtitle {
+            margin-top: 20px;
+        }
+    }
+
+}
+
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {}
+
+/* Portrait phones and smaller */
+/* @media (max-width: 480px) {
+
+} */
